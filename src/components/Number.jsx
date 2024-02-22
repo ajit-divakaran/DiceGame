@@ -64,6 +64,6 @@ const Box = styled.div`
   height: 72px;
   background-color: ${(props) => (props.isSelected ? "black" : "transparent")};
   color: ${(props) => (props.isSelected ? "white" : "black")};
-  cursor: url("../../public/images/pointinghand.svg"), pointer;
+  cursor: url("public/images/pointinghand.svg"), pointer;
   border-radius: 2px;
 `;
