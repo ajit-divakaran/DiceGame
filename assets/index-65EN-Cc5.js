@@ -54,7 +54,7 @@ Error generating stack: `+o.message+`
     background-color: transparent;
     color: black;
   }
-`,Lm=({toggle:e})=>N.jsxs(jm,{children:[N.jsx("div",{className:"image-container",children:N.jsx("img",{src:"../../public/images/dices-1.png",alt:"Dices Cover Page image"})}),N.jsxs("div",{className:"first-pg-content",children:[N.jsx("h1",{children:"Dice Game"}),N.jsx(kl,{onClick:e,children:"Start Game"})]})]}),jm=ie.div`
+`,Lm=({toggle:e})=>N.jsxs(jm,{children:[N.jsx("div",{className:"image-container",children:N.jsx("img",{src:"public/images/dices-1.png",alt:"Dices Cover Page image"})}),N.jsxs("div",{className:"first-pg-content",children:[N.jsx("h1",{children:"Dice Game"}),N.jsx(kl,{onClick:e,children:"Start Game"})]})]}),jm=ie.div`
   width: fit-content;
   height: fit-content;
   align-items: center;
@@ -141,9 +141,9 @@ Error generating stack: `+o.message+`
   height: 72px;
   background-color: ${e=>e.isSelected?"black":"transparent"};
   color: ${e=>e.isSelected?"white":"black"};
-  cursor: url("../../public/images/pointinghand.svg"), pointer;
+  cursor: url("public/images/pointinghand.svg"), pointer;
   border-radius: 2px;
-`,Wm=({isDiceSelected:e,DiceIsClicked:t})=>N.jsxs(Qm,{children:[N.jsx("div",{onClick:t,children:N.jsx("img",{style:{width:"150px",height:"150px"},src:`../../public/images/dice_${e}.png`,alt:""})}),N.jsx("p",{children:"Click on Dice to Roll"})]}),Qm=ie.div`
+`,Wm=({isDiceSelected:e,DiceIsClicked:t})=>N.jsxs(Qm,{children:[N.jsx("div",{onClick:t,children:N.jsx("img",{style:{width:"150px",height:"150px"},src:`public/images/dice_${e}.png`,alt:""})}),N.jsx("p",{children:"Click on Dice to Roll"})]}),Qm=ie.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
