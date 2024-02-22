@@ -5,7 +5,10 @@ const HomePage = ({ toggle }) => {
   return (
     <Container>
       <div className="image-container">
-        <img src="public/images/dices-1.png" alt="Dices Cover Page image" />
+        <img
+          src="../../public/images/dices-1.png"
+          alt="Dices Cover Page image"
+        />
       </div>
       <div className="first-pg-content">
         <h1>Dice Game</h1>
