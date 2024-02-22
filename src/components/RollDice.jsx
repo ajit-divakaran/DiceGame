@@ -6,7 +6,7 @@ const RollDice = ({ isDiceSelected, DiceIsClicked }) => {
       <div onClick={DiceIsClicked}>
         <img
           style={{ width: "150px", height: "150px" }}
-          src={`public/images/dice_${isDiceSelected}.png`}
+          src={`public/images/dice-${isDiceSelected}.png`}
           alt=""
         />
       </div>
