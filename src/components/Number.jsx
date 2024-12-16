@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { useState } from "react";
 import ErrorAnimate from "./ErrorAnimate";
 
@@ -64,6 +64,6 @@ const Box = styled.div`
   height: 72px;
   background-color: ${(props) => (props.isSelected ? "black" : "transparent")};
   color: ${(props) => (props.isSelected ? "white" : "black")};
-  cursor: url("public/images/pointinghand.svg"), pointer;
+  cursor: url("/images/pointinghand.svg"), pointer;
   border-radius: 2px;
 `;

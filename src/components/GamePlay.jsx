@@ -76,7 +76,7 @@ const GamePlay = () => {
       <GameOver isPlayDone={isGameOver === true}>
         <SadImgContainer>
           <img
-            src="../../public/images/GC_milk_cry.gif"
+            src="/images/GC_milk_cry.gif"
             alt="Crying face gif"
           />
         </SadImgContainer>
